@@ -1,13 +1,21 @@
 {
-  "name": "insight-bitcore",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "name": "csc-insight-ui-v0.2.5",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the casinocoin network and build your own services with it.",
   "version": "0.2.5",
   "author": {
-    "name": "Ryan X Charles",
-    "email": "ryan@bitpay.com"
+    "name": "Andre Jochems",
+    "email": "andre.jochems@gmail.com"
   },
   "repository": "git://github.com/bitpay/insight.git",
   "contributors": [
+    {
+    "name": "Andre Jochems",
+    "email": "andre.jochems@gmail.com"
+    },
+    {
+    "name": "Ryan X Charles",
+    "email": "ryan@bitpay.com"
+    },
     {
       "name": "Matias Alejo Garcia",
       "email": "ematiu@gmail.com"
@@ -30,23 +38,23 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/casinocoin/csc-insight-ui-v0.2.5/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/casinocoin/csc-insight-ui-v0.2.5",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
+    "casinocoin",
     "bitcore",
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/csc-insight-api-v0.2"
   },
   "dependencies": {
-    "insight-bitcore-api": ">0.2.10"
+    "csc-insight-api-v0.2": "=0.2.11"
   },
   "devDependencies": {
     "bower": "~1.2.8",
